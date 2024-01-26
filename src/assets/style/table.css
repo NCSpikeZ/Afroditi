@@ -1,0 +1,52 @@
+.full-width-table {
+  width: 80%;
+  margin: 20px 14vw;
+  border-collapse: collapse;
+}
+
+.full-width-table th,
+.full-width-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: rgba(16, 33, 59, 1);
+}
+
+.full-width-table th {
+  background-color: white;
+  color: rgba(16, 33, 59, 1);
+}
+
+.full-width-sectionTable {
+  width: 100vw;
+  height: 90vh;
+  background-color: white;
+  background-image: url(../../assets/images/fondTable.png);
+  margin-top: -25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.full-width-sectionTable h1{
+  color: rgba(16, 33, 59, 1);
+  font-size: 31px;
+  margin-left: 14vw;
+}
+
+.full-width-sectionTable h1.fixmargin{
+  margin-top: 5vh;
+}
+
+.full-width-sectionTable span {
+  font-family: "coolvetica", sans-serif;
+  text-transform: initial;
+}
+
+.full-width-sectionTable p {
+  color: rgba(16, 33, 59, 1);
+  margin-left: 14vw;
+  max-width: 75ch;
+}

@@ -1,0 +1,64 @@
+.full-width-sectionWho {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/images/fond3.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.welcome-txt.who {
+  margin-top: 360px;
+}
+
+.welcome-txt p {
+  margin-bottom: 18px;
+}
+
+.welcome-txt p.basic-txt {
+  font-size: 18px;
+  margin-bottom: 36px;
+}
+
+button.launchpad-a.large {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 20px 20px;
+}
+
+.button-text {
+  margin-right: 60px;
+}
+
+.button-icon {
+  fill: white;
+  vertical-align: middle;
+}
+
+.nymphes {
+  position: absolute;
+  top: 227.2vh;
+  right: 0px;
+  width: 961px;
+  height: 785px;
+  background-image: url('../../assets/images/nymphes.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .nymphes{
+    background-image: url('../../assets/images/mobilenymphes.png');
+    width: 403px;
+    height: 382px;
+  }
+
+  p.wlcm{
+    max-width: 20ch;
+  }
+
+  .welcome-txt p.basic-txt{
+    font-size: 14px;
+  }
+}

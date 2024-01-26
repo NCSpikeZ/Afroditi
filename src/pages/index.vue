@@ -29,18 +29,3 @@ components: {
 },
 };
 </script>
-
-<style>
-#app {
-font-family: "coolvetica", sans-serif;
-color: white;
-font-size: 18px;
-}
-
-h1, h2, h3 {
-font-family: "restore", sans-serif;
-font-weight: 900;
-font-style: normal;
-text-transform: uppercase;
-}
-</style>

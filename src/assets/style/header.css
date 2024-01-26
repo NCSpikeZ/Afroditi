@@ -1,0 +1,144 @@
+header {
+  color: #112440;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  font-family: "restore", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  background: linear-gradient(90deg, rgba(43, 66, 111, 1) 0%, rgba(102, 139, 206, 1) 35%);
+  background-size: 400% 400%;
+  background-clip: text;
+  color: transparent;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+}
+
+.link {
+  margin-right: 54px;
+}
+
+.right-content a {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 10px;
+  padding: 8px 12px;
+  color: #112440;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.launchpad-a {
+  background-color: #6f96db;
+  border: none;
+  color: white;
+  padding: 20px 50px;
+  font-weight: bold;
+  margin-right: 80px;
+  cursor: pointer;
+}
+
+.burger{
+  display: none;
+}
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .left-content {
+    margin-left: 50px;
+  }
+
+  header{
+    justify-content: initial;
+    overflow-x: hidden;
+    padding: 5px;
+  }
+
+  .left-content{
+    margin-left: 20px;
+  }
+
+  .link{
+    margin-right: initial;
+  }
+
+  .launchpad-a {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .left-content {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  .right-content {
+    display: none;
+  }
+
+  .burger{
+    display: initial;
+    background-color: transparent;
+    border: none;
+    width: 25px;
+    height: 30px;
+  }
+
+  .burger :nth-child(1){
+    top: 45px;
+    right: 50px;
+  }
+  
+  .burger :nth-child(2){
+    top: 55px;
+    right: 50px;
+  }
+  
+  .burger :nth-child(3){
+    top: 65px;
+    right: 50px;
+  }
+  
+  .burger i{
+    display: flex;
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    transform-origin: center left;
+    transition: transform ease-in-out 200ms;
+  }
+  
+  .burger.burgeropen :nth-child(1){
+    position: absolute;
+    transform: rotate(45deg) scalex(1.2);
+  }
+  
+  .burger.burgeropen :nth-child(2){
+    display: none;
+  }
+  
+  .burger.burgeropen :nth-child(3){
+    transform: rotate(-45deg) scalex(1.2);
+  }
+}

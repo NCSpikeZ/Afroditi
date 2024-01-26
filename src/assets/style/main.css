@@ -1,0 +1,23 @@
+@import url("https://use.typekit.net/wli0gtu.css");
+@import url("https://use.typekit.net/wli0gtu.css");
+
+*{
+  overflow-x: hidden;
+}
+
+html{
+  max-width: 100vw;
+}
+
+#app {
+  font-family: "coolvetica", sans-serif;
+  color: white;
+  font-size: 18px;
+  }
+  
+  h1, h2, h3 {
+  font-family: "restore", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  }

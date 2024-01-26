@@ -1,0 +1,47 @@
+.full-width-sectionTable.queen{
+  margin-top: -40vh;
+  height: 80vh;
+}
+
+.full-width-sectionVideo.queen{
+  align-items: normal;
+  height: 80vh;
+}
+
+.full-width-sectionVideo.queen h1{
+  font-family: "coolvetica", sans-serif;
+  text-transform: initial;
+  max-width: 20ch;
+  font-size: 49px;
+}
+
+.queen-txt{
+  margin-left: -4vw;
+  margin-top: -20vh;
+}
+
+.basic-txt{
+  line-height: 200%;
+}
+
+.nymphe.queen{
+  background-image: url(../../assets/images/cesar.png);
+  width: 490px;
+  height: 490px;
+  top: 80vh;
+  right: 15vw;
+}
+
+.crypto-queen{
+  position: absolute;
+  max-width: 70ch;
+  margin-top: 20vh;
+  left: 10vw;
+}
+
+.rewards{
+  position: absolute;
+  max-width: 70ch;
+  margin-top: 20vh;
+  right: 10vw;
+}

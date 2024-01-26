@@ -1,0 +1,22 @@
+.full-width-sectionVideo {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/images/fond2.png');
+  background-size: cover;
+  background-position: center;
+  margin-top: -120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-txt {
+  text-align: center;
+  margin-top: -20vh;
+}
+
+.video-txt p {
+  margin-top: -5px;
+  font-size: 53px;
+  max-width: 25ch;
+}

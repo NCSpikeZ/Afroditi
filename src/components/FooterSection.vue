@@ -28,61 +28,19 @@ footer
         h4 Social
         .social-icons
           a(href="lien_vers_facebook")
-            img(src="../assets/images/logo.png", alt="Facebook")
+            img(src="../assets/images/facebook.svg", alt="Facebook")
           a(href="lien_vers_twitter")
-            img(src="../assets/images/logo.png", alt="Twitter")
+            img(src="../assets/images/insta.svg", alt="Instagram")
           a(href="lien_vers_instagram")
-            img(src="../assets/images/logo.png", alt="Instagram")
+            img(src="../assets/images/twitter.svg", alt="Twitter")
           a(href="lien_vers_linkedin")
-            img(src="../assets/images/logo.png", alt="LinkedIn")
+            img(src="../assets/images/youtube.svg", alt="Youtube")
+          a(href="lien_vers_linkedin")
+            img(src="../assets/images/tiktok.svg", alt="Tiktok")
+          a(href="lien_vers_linkedin")
+            img(src="../assets/images/discord.svg", alt="Discord")
+          a(href="lien_vers_linkedin")
+            img(src="../assets/images/reddit.svg", alt="Reddit")          
+          
   .copyright © 2023 Afroditi | All Rights Reserved
 </template>
-
-<style>
-footer {
-  background-color: rgba(7, 24, 42, 1);
-  color: #fff;
-  padding: 20px 0;
-}
-
-.footer-content {
-  max-width: 1400px;
-  height: 500px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 100px;
-}
-
-.footer-columns {
-  display: flex;
-}
-
-.footer-column {
-  margin-right: 100px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  margin-bottom: 18px;
-}
-
-.social-icons {
-  display: flex;
-}
-
-.social-icons img{
-  width: 60px;
-}
-
-.copyright {
-  text-align: center;
-  margin-bottom: 72px;
-}
-</style>

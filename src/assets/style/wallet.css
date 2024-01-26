@@ -1,0 +1,84 @@
+.full-width-section {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/images/fondWallet.png');
+  background-size: cover;
+  background-position: center;
+  margin-top: 120px;
+}
+
+.welcome-txt {
+  margin-top: 20vh;
+  margin-left: 10vw;
+  color: white;
+}
+
+.welcome-txt p {
+  margin-top: 0px;
+  font-size: 69px;
+  max-width: 700px;
+}
+
+.welcome-txt p span {
+  color: #74a6ff;
+}
+
+.wallet-txt {
+  position: absolute;
+  max-width: 75ch;
+  top: 40vh;
+  right: 15vw;
+}
+
+.banner-background.wallet {
+  transform: rotate(0deg);
+  height: 20vh;
+  margin-top: 10vh;
+}
+
+.button-container {
+  display: flex;
+}
+
+.wallet-button {
+  background-color: rgba(255, 255, 255, 0.17);
+  width: 220px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 15px 25px;
+  border-radius: 50px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallet-button img {
+  margin-right: 10px;
+}
+
+.wallet-button span {
+  font-size: 18px;
+}
+
+.banner-background.wallet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 95vw;
+  margin-left: 2.5vw;
+}
+
+.banner-background.wallet h1 {
+  font-size: 31px;
+  margin-top: 0px;
+  margin-right: 30vw;
+}
+
+.banner-background.wallet span {
+  font-family: "coolvetica", sans-serif;
+  text-transform: initial;
+}
