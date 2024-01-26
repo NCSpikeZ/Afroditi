@@ -8,13 +8,13 @@ header
       i
   .right-content
     .link
-      a Home
+      <router-link to="/">Home</router-link>
       a About
-      a Wallet
+      <router-link to="/wallet">Wallet</router-link>
       a Buy
       a Sell
       a Farming
-      a Queens
+      <router-link to="/queen">Queens</router-link>
       a Models
       a Contact
     button.launchpad-a Go to Launchpad
