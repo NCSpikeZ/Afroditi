@@ -38,7 +38,7 @@
   right: 50px;
   width: 880px;
   height: 820px;
-  background-image: url('../../assets/images/nymphe.png');
+  background-color: red;
   background-size: cover;
   background-position: center;
 }

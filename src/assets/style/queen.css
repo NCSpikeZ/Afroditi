@@ -25,7 +25,7 @@
 }
 
 .nymphe.queen{
-  background-image: url(../../assets/images/cesar.png);
+  background-color: red;
   width: 490px;
   height: 490px;
   top: 80vh;

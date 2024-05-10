@@ -42,14 +42,14 @@ button.launchpad-a.large {
   right: 0px;
   width: 961px;
   height: 785px;
-  background-image: url('../../assets/images/nymphes.png');
+  background-color: blue;
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (max-width: 1023px) {
   .nymphes{
-    background-image: url('../../assets/images/mobilenymphes.png');
+    background-color: aquamarine;
     width: 403px;
     height: 382px;
   }
