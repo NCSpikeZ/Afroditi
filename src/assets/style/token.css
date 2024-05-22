@@ -18,11 +18,10 @@
 .token-txt span{
   color: rgba(227, 195, 124, 1);
   text-transform: uppercase;
-  font-weight: 900;
 }
 
 .token-txt p {
-  font-size: 53px;
+  font-size: 48px;
   max-width: 38ch;
 }
 
@@ -31,12 +30,14 @@
   right: 15vw;
   top: 170vh;
   max-width: 54ch;
+  font-size: 24px
 }
 
 .coin{
   position: absolute;
   left: 5vw;
-  top: 150vh;
+  top: 160vh;
+  width: 650px;
 }
 @media screen and (max-width: 1023px) {
   .full-width-sectionToken {

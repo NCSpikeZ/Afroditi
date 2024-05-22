@@ -38,11 +38,11 @@ button.launchpad-a.large {
 
 .nymphes {
   position: absolute;
-  top: 227.2vh;
-  right: 0px;
-  width: 961px;
-  height: 785px;
-  background-color: blue;
+  top: 230.7vh;
+  right: 20vw;
+  width: 500px;
+  height: 450px;
+  background-image: url(../images/logo.svg);
   background-size: cover;
   background-position: center;
 }

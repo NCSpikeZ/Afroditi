@@ -34,6 +34,7 @@ header {
 
 .link {
   margin-right: 54px;
+  overflow-y: hidden;
 }
 
 .right-content a {
@@ -49,7 +50,7 @@ header {
 }
 
 .launchpad-a {
-  background-color: #6f96db;
+  background-color: #3B71CE;
   border: none;
   color: white;
   padding: 20px 50px;
@@ -70,7 +71,7 @@ header {
   header{
     justify-content: initial;
     overflow-x: hidden;
-    padding: 5px;
+    padding: 0px;
   }
 
   .left-content{

@@ -9,10 +9,6 @@
   align-items: center;
 }
 
-.token-txt.hiw p{
-  max-width: 20ch;
-}
-
 .token-txt span.gold{
   color: rgba(116, 166, 255, 1);
   text-transform: initial;
@@ -34,7 +30,12 @@
 }
 
 .tech-button.hiw {
-  padding: 20px 30px;
+  padding: 10px 15px;
+}
+
+.tech-button.hiw:hover {
+  color: rgba(227, 195, 124, 1);
+  transform: rotate(-1deg);
 }
 
 .tech-button.hiw img {

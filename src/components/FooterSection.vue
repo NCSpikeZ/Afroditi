@@ -1,46 +1,31 @@
 <template lang="pug">
 footer
   .footer-content
-    h1.site-title Afroditi
+    h1.site-title Ronin's Ascend
     .footer-columns
       .footer-column
         h4 Plus de liens
         ul
-          li About
-          li Reine
-          li Modèle
-          li White Paper
-          li Mentions légales
+          li Histoire
+          li Gameplay
       .footer-column
-        h4 Comment ça marche
+        h4 Mes projets
         ul
-          li Portefeuille
-          li Acheter
-          li Vendre
-          li Authentification
-          li Agriculture
+          li TFA
+          li RUX
+          li IOLCE
+          li Space Shooter
       .footer-column
-        h4 Contact US
+        h4 Me contacter
         ul
-          li Hotel Reservation: 123-456-7890
-          li Ticket Office: 123-456-789
+          li nicolas.coop@outlook.fr
       .footer-column
         h4 Social
         .social-icons
-          a(href="lien_vers_facebook")
-            img(src="../assets/images/facebook.svg", alt="Facebook")
-          a(href="lien_vers_twitter")
+          a(href="https://www.instagram.com/1.spike.z/")
             img(src="../assets/images/insta.svg", alt="Instagram")
-          a(href="lien_vers_instagram")
-            img(src="../assets/images/twitter.svg", alt="Twitter")
-          a(href="lien_vers_linkedin")
-            img(src="../assets/images/youtube.svg", alt="Youtube")
-          a(href="lien_vers_linkedin")
-            img(src="../assets/images/tiktok.svg", alt="Tiktok")
-          a(href="lien_vers_linkedin")
-            img(src="../assets/images/discord.svg", alt="Discord")
-          a(href="lien_vers_linkedin")
-            img(src="../assets/images/reddit.svg", alt="Reddit")          
+          a(href="https://x.com/Tuntoye")
+            img(src="../assets/images/twitter.svg", alt="Twitter")     
           
-  .copyright © 2023 Afroditi | All Rights Reserved
+  .copyright © 2023 SpikeNC | All Rights Reserved
 </template>

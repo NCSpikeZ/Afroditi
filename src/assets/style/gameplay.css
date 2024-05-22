@@ -1,0 +1,62 @@
+.full-width-sectionTable.gameplay{
+  margin-top: -40vh;
+  height: 65vh;
+}
+
+.full-width-sectionVideo.gameplay{
+  align-items: normal;
+  height: 80vh;
+}
+
+.full-width-sectionVideo.gameplay h1{
+  font-family: "coolvetica", sans-serif;
+  text-transform: initial;
+  max-width: 20ch;
+  font-size: 49px;
+}
+
+.gameplay-txt{
+  margin-left: -4vw;
+}
+
+.section.attaque{
+  width: 1000px;
+  height: 150px;
+  top: 59vh;
+  right: 20vw;
+  position: absolute;
+  background-image: url(../images/attaque.png);
+}
+
+.controle{
+  margin-left: 14vw;
+  color: black;
+}
+
+.basic-txt{
+  line-height: 200%;
+}
+
+.crypto-gameplay{
+  position: absolute;
+  max-width: 70ch;
+  margin-top: 20vh;
+  left: 10vw;
+}
+
+.rewards{
+  position: absolute;
+  max-width: 70ch;
+  margin-top: 20vh;
+  right: 10vw;
+}
+
+.clavier{
+  background-image: url(../images/clavier.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 90vh;
+  right: 250px;
+  width: 600px;
+  height: 20vh;
+}

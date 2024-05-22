@@ -19,13 +19,13 @@
 
 .full-width-sectionTable {
   width: 100vw;
-  height: 90vh;
+  height: 80vh;
   background-color: white;
   background-image: url(../../assets/images/fondTable.png);
   margin-top: -25vh;
+  padding-top: 96px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background-size: cover;
   background-position: center;
 }
