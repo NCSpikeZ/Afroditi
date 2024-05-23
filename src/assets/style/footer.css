@@ -18,9 +18,18 @@ footer {
   display: flex;
 }
 
+.footer-column ul li a{
+  color: rgba(227, 195, 124, 1) !important;
+}
+
+.footer-column ul li a:hover{
+  text-decoration:overline;
+}
+
 .footer-column {
   margin-right: 100px;
 }
+
 
 ul {
   list-style: none;

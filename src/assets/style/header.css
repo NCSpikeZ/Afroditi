@@ -9,6 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow-y: hidden;
 }
 
 .left-content {
@@ -35,6 +36,10 @@ header {
 .link {
   margin-right: 54px;
   overflow-y: hidden;
+}
+
+.link a:hover {
+ text-decoration: overline;
 }
 
 .right-content a {

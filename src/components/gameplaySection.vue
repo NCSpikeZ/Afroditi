@@ -16,11 +16,11 @@
         li ESPACE = ARC
 .section.clavier
 .full-width-sectionVideo.gameplay
-  .crypto-gameplay
+  .crypto-gameplay(data-aos="fade-right" data-aos-duration="2000")
     h1 Quel est le but du jeu ?
     p.basic-txt Eliminer tout les ennemis qui se présente à vous en évitant les divers obsctacles sur votre chemin.
     p.basic-txt Il se peut que vous rencontriez divers boss et nouvelles mécaniques en cours de jeu, bon amusement !
-  .rewards 
+  .rewards(data-aos="fade-left" data-aos-duration="2000")
     h1 Rejouabilité ?
     p.basic-txt Le jeu a été pensé pour être finis le plus vite possible, n'hésitez pas à retenter l'aventure une fois finie pour améliorer votre temps !
 </template>

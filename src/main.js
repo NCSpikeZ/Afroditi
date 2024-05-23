@@ -21,9 +21,9 @@ import histoire from '../src/pages/histoire.vue'
 import Home from '../src/pages/index.vue'
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/histoire', component: histoire },
-  { path: '/gameplay', component: gameplay },
+  { path: '/projets/tfe/', component: Home },
+  { path: '/projets/tfe/histoire', component: histoire },
+  { path: '/projets/tfe/gameplay', component: gameplay },
 ];
 
 const router = createRouter({

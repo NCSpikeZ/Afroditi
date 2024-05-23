@@ -6,19 +6,27 @@ footer
       .footer-column
         h4 Plus de liens
         ul
-          li Histoire
-          li Gameplay
+          li
+            <router-link to="/projets/tfe/histoire">Histoire</router-link>
+          li
+            <router-link to="/projets/tfe/gameplay">Gameplay</router-link>
+
       .footer-column
         h4 Mes projets
         ul
-          li TFA
-          li RUX
-          li IOLCE
-          li Space Shooter
+          li
+            a(href="https://nicolascoopman.be/projets/tfaaout/") TFA
+          li
+            a(href="https://nicolascoopman.be/projets/rethink-ux/") RUX
+          li
+            a(href="https://nicolascoopman.be/projets/iolce/") IOLCE
+          li
+            a(href="https://nicolascoopman.be/projets/generativedesign/") Space Shooter
       .footer-column
         h4 Me contacter
         ul
-          li nicolas.coop@outlook.fr
+          li
+            a(href="mailto:nicolas.coop@outlook.fr") nicolas.coop@outlook.fr
       .footer-column
         h4 Social
         .social-icons

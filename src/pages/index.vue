@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <HomeSection />
+  <HomeSection /> 
   <TokenSection />
   <WhoSection />
   <HIWSection />

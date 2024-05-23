@@ -32,6 +32,10 @@
   padding: 20px 20px 20px 40px;
 }
 
+.launchpad-a:hover {
+  border-radius: 8%;
+}
+
 .nymphe {
   position: absolute;
   top: 120px;
@@ -103,6 +107,11 @@
   cursor: pointer;
   color: white;
   text-decoration: none;
+}
+
+.info:hover {
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .posfix{
