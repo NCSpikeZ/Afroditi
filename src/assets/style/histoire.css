@@ -93,3 +93,24 @@
   font-family: "coolvetica", sans-serif;
   text-transform: initial;
 }
+
+
+@media screen and (max-width: 1440px) {
+
+  .welcome-txt p {
+    margin-top: 0px;
+    font-size: 69px;
+    max-width: 500px;
+  }
+  
+  .histoire-txt {
+    position: absolute;
+    font-size: 18px;
+    max-width: 60ch;
+    top: 40vh;
+    right: 5vw;
+  }
+  .banner-background.histoire h1{
+    margin-right: initial;
+  }
+}

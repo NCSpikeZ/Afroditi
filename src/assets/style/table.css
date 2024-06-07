@@ -50,3 +50,9 @@
   margin-left: 14vw;
   max-width: 75ch;
 }
+
+@media screen and (max-width: 1440px) {
+  .full-width-sectionTable {
+    margin-top: -8vh;
+  }
+}

@@ -47,11 +47,9 @@ button.launchpad-a.large {
   background-position: center;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1440px) {
   .nymphes{
-    background-color: aquamarine;
-    width: 403px;
-    height: 382px;
+    display: none;
   }
 
   p.wlcm{
@@ -59,6 +57,10 @@ button.launchpad-a.large {
   }
 
   .welcome-txt p.basic-txt{
-    font-size: 14px;
+    font-size: 24px;
+  }
+
+  .welcome-txt.who {
+    margin-top: 280px;
   }
 }

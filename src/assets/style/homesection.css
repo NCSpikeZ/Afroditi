@@ -99,7 +99,7 @@
 }
 
 .tech-button:hover {
-  transform: rotate(-1deg);
+  transform: rotate(-1deg) scale(1.05);
 }
 
 .info {
@@ -116,6 +116,24 @@
 
 .posfix{
   margin-left: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .nymphe{
+    width: 40vw;
+    height: 60vh;
+    top: 30vh;
+    right: 0px;
+    z-index: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nymphe{
+    width: 50vw;
+    height: 50vh;
+    top: 50vh;
+  }
 }
 
 @media screen and (max-width: 1023px) {

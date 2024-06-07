@@ -35,7 +35,7 @@
 
 .tech-button.hiw:hover {
   color: rgba(227, 195, 124, 1);
-  transform: rotate(-1deg);
+  transform: rotate(-1deg) scale(1.05);
 }
 
 .tech-button.hiw img {
